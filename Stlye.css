@@ -1,0 +1,242 @@
+<style>
+body{
+  
+background: #111111;
+}
+div[id=d1-1]{
+		clear:both; line-height:1; height:0; 
+		width:100%;
+		height: 6%; 
+		overflow:hidden;
+		padding: 0px 0px; 
+		background: #333333;
+		border: 0px solid #333; 
+		position:fixed;
+		left:0px;
+		top:0px;
+}
+div[id=d1-2t]{
+		width:26.8%;
+		height: 6.8%; 
+		overflow:hidden;
+		padding: 0px 0px; 
+		background: #555555;
+		border: 1px solid #333; 
+		position:fixed;
+		left:0px;
+		top:6%;
+}
+.massages{
+		display:inline-block;
+		width:26.8%;
+		height: 100%; 
+		overflow-x: hidden; /* Hide horizontal scrollbar */
+		overflow-y: auto; /* Add vertical scrollbar */
+		padding: 0px 0px; 
+		background: #636363;
+		border: 1px solid #333; 
+		position:fixed;
+		left:0px;
+		top:13%;
+}
+.containt{
+		display:inline-block;
+		text-align: center;
+		vertical-align: middle;
+		float:left; 
+		width:90%;
+		height: 10%; 
+		padding:4px;
+		background: #838383;
+		border: 1px solid #737373;
+		cursor:pointer;
+		
+}
+.name{
+		display:inline-block;
+		text-align: center;
+		vertical-align: middle;
+		float:right; 
+		width:85%;
+		height: 40%; 
+}
+.timesender{
+		display:inline-block;
+		text-align: center;
+		vertical-align: middle;
+		float:right; 
+		width:25%;
+		height: 100%; 
+
+}
+.mas{
+		display:block;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		text-align: center;
+		vertical-align: middle;
+		float:right;
+		width:85%;
+		height: 40%; 
+		word-wrap:break-word;
+		overflow: hidden;	
+}
+
+div[id=d1-2c-1]{
+		width:24%;
+		height: 8%; 
+		overflow:hidden;
+		padding: 0px 0px; 
+		border: 0px solid #333; 
+		position:fixed;
+		left:0px;
+}
+
+.d1-3t{
+		display:inline-block;
+		width:47.8%;
+		height: 6.8%; 
+		overflow:hidden;
+		padding: 0px 0px; 
+		background: #555555;
+		border: 1px solid #333; 
+		position:fixed;
+		left:27%;
+		top:6%;
+}
+.d1-3{
+		display:inline-block;
+		width:48%;
+		height: 80%; 
+		overflow-x: hidden; /* Hide horizontal scrollbar */
+		overflow-y: auto; /* Add vertical scrollbar */
+		padding: 0px 0px; 
+		background: #909090;
+		border: 0px solid #333; 
+		position:fixed;
+		left:27%;
+		top:13.2%;
+}
+.d1-3ct{
+		display:inline-block;
+		width:100%;
+}
+.d1-3-c{
+		display:inline-block;
+		text-align: left;
+		vertical-align: middle;
+		padding: 0px 0px; 
+		float:right; 
+		width:49%;
+		margin:5px;
+		word-wrap:break-word;
+}
+.d1-3mm{
+        max-width: 100%;
+		display:inline-block;
+		text-align: left;
+		vertical-align: middle;
+		padding: 0px 10px; 
+		float:right; 
+		background: #00FF00;
+		margin:20px;
+		border-radius:20px;
+		word-wrap:break-word;
+}
+.d1-3-d{
+		display:inline-block;
+		text-align: left;
+		vertical-align: middle;
+		padding: 0px 0px; 
+		float:left; 
+		width:49%;
+		word-wrap:break-word;
+}
+.d1-3my{
+		max-width: 100%;
+		display:inline-block;
+		text-align: left;
+		vertical-align: middle;
+		padding: 0px 10px; 
+		float:left; 
+		background: #FFFFFF;
+		margin:20px;
+		border-radius:20px;
+		word-wrap:break-word;
+}
+
+.edittitle{
+		width:23.8%;
+		height: 6.8%; 
+		overflow:hidden;
+		padding: 0px 10px; 
+		background: #555555;
+		border: 1px solid #333; 
+		position:fixed;
+		right:0px;
+		top:6%;
+}
+.editmanager{
+		width:23.7%;
+		height: 15%; 
+		overflow:hidden;
+		padding: 4px 10px; 
+		background: #636363;
+		border: 1px solid #333; 
+		position:fixed;
+		right:0px;
+		top:13%;
+}
+
+
+
+.useronline{
+		width:23.7%;
+		height: 100%; 
+		overflow:hidden;
+		padding: 0px 10px; 
+		background: #636363;
+		border: 1px solid #333; 
+		position:fixed;
+		right:0px;
+		top:26%;
+		overflow-x: hidden; /* Hide horizontal scrollbar */
+		overflow-y: auto; /* Add vertical scrollbar */
+}
+.useronlinecontaint{
+		display:inline-block;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		text-align: left;
+		vertical-align: middle;
+		float:left; 
+		width:95%;
+		height: 4%; 
+		padding:1px 10px;
+		cursor:pointer; 
+		
+}
+.inpute{
+		width:47.8%;
+		height: 7%; 
+		padding: 0px 0px; 
+		border: 0px solid #333; 
+		position:fixed;
+		left:27%;
+		bottom:0%;
+		overflow-x: hidden; /* Hide horizontal scrollbar */
+		overflow-y: hidden; /* Add vertical scrollbar */
+}
+
+.w3-container{content:"";width:100%;height:100%;display:table;clear:both}
+.w3-input{padding: 0px 10px; border:none;outline:none;width:100%;height:100%;font-size:20px;}
+.w3-border{border:1px solid #ccc;}
+.w3-hover-blue:hover{color:#444444;background-color:#DDDDDD;}
+[na=nameu]{color:pink;}
+[na=nameuq]{color:#999999;}
+a:link    {color:pink; background-color:transparent; text-decoration:none}
+a:visited {color:pink; background-color:transparent; text-decoration:none}
+a:hover   {color:#444444; background-color:transparent; text-decoration:none}
+a:active  {color:yellow; background-color:transparent; text-decoration:none}
+
+</style>
